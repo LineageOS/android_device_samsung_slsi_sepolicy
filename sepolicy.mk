@@ -8,14 +8,14 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/samsung_slsi/sepolicy/common/private
 
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/common/vendor
 
 ifeq ($(BOARD_SEPOLICY_TEE_FLAVOR),teegris)
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
     device/samsung_slsi/sepolicy/tee/teegris/public
 
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/tee/teegris/vendor
 else ifeq ($(BOARD_SEPOLICY_TEE_FLAVOR),mobicore)
 POLICY_TYPE := legacy
@@ -28,9 +28,9 @@ else ifneq ($(call math_gt_or_eq,$(PRODUCT_SHIPPING_API_LEVEL),26),)
 POLICY_TYPE := treble
 endif
 
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/tee/mobicore/$(POLICY_TYPE)
 
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/tee/mobicore/common
 endif
