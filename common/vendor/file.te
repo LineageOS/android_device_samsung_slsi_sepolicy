@@ -1,0 +1,4 @@
+# file.te
+
+### SYSFS
+type sysfs_backlight_writable, sysfs_type, rw_fs_type, fs_type;
