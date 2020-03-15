@@ -12,6 +12,9 @@ BOARD_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/common/vendor
 
 ifeq ($(BOARD_SEPOLICY_TEE_FLAVOR),teegris)
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/exynos/sepolicy/tee/teegris/public
+
 BOARD_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/tee/teegris/vendor
 endif
