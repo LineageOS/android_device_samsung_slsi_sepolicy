@@ -9,3 +9,10 @@ genfscon sysfs /devices/platform/panel@0/backlight/panel/max_brightness   u:obje
 genfscon sysfs /devices/virtual/timed_output/vibrator/intensity           u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/multi_freq          u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/cp_trigger_index    u:object_r:sysfs_vibrator:s0
+
+genfscon sysfs /module/dhd/parameters                                     u:object_r:sysfs_wifi_writable:s0
+
+genfscon sysfs /wifi                                                      u:object_r:sysfs_wifi:s0
+genfscon sysfs /wifi/cid                                                  u:object_r:sysfs_wifi_writable:s0
+genfscon sysfs /wifi/mac_addr                                             u:object_r:sysfs_wifi_writable:s0
+genfscon sysfs /wifi/memdump                                              u:object_r:sysfs_wifi_writable:s0
