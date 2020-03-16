@@ -20,3 +20,14 @@ allow tzdaemon tee_vendor_data_file:file create_file_perms;
 
 # /proc/stat
 allow tzdaemon proc_stat:file r_file_perms;
+
+# /efs
+allow tzdaemon efs_file:dir r_dir_perms;
+
+# /efs/tee/
+# /mnt/vendor/efs/tee/
+allow tzdaemon tee_efs_file:dir create_dir_perms;
+allow tzdaemon tee_efs_file:file create_file_perms;
+
+# /mnt/vendor/
+allow tzdaemon mnt_vendor_file:dir r_dir_perms;
