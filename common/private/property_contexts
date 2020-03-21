@@ -1,6 +1,9 @@
 ### BLUETOOTH
 sys.bluetooth.tty                            u:object_r:vendor_public_bluetooth_prop:s0
 
+### BUILD
+ro.build.PDA                                 u:object_r:vendor_public_build_prop:s0
+
 ### CAMERA
 system.camera.CC.                            u:object_r:vendor_public_camera_prop:s0
 service.camera.                              u:object_r:vendor_public_camera_prop:s0
