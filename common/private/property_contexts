@@ -8,6 +8,8 @@ ro.build.PDA                                 u:object_r:vendor_public_build_prop
 system.camera.CC.                            u:object_r:vendor_public_camera_prop:s0
 service.camera.                              u:object_r:vendor_public_camera_prop:s0
 sys.cameramode.                              u:object_r:vendor_public_camera_prop:s0
+ro.camera.req.fmq.size                       u:object_r:vendor_public_camera_prop:s0
+ro.camera.res.fmq.size                       u:object_r:vendor_public_camera_prop:s0
 
 ### CSC
 ro.csc.                                      u:object_r:vendor_public_csc_prop:s0
