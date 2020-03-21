@@ -1,0 +1,21 @@
+### BLUETOOTH
+sys.bluetooth.tty                            u:object_r:vendor_public_bluetooth_prop:s0
+
+### CAMERA
+system.camera.CC.                            u:object_r:vendor_public_camera_prop:s0
+service.camera.                              u:object_r:vendor_public_camera_prop:s0
+sys.cameramode.                              u:object_r:vendor_public_camera_prop:s0
+
+### CSC
+ro.csc.                                      u:object_r:vendor_public_csc_prop:s0
+
+### MDC
+mdc.                                         u:object_r:vendor_public_config_prop:s0
+
+### RADIO
+ril.NwNmId                                   u:object_r:vendor_public_radio_prop:s0
+ril.NwNmId2                                  u:object_r:vendor_public_radio_prop:s0
+ro.boot.cpboot                               u:object_r:vendor_public_radio_prop:s0
+
+### RFKILL
+ro.rfkilldisabled                            u:object_r:rfkilldisabled_prop:s0
