@@ -10,6 +10,9 @@ type vendor_public_csc_prop, property_type;
 ### MDC
 type vendor_public_config_prop, property_type;
 
+### OMC
+type vendor_public_omc_prop, property_type;
+
 ### RADIO
 type vendor_public_radio_prop, property_type;
 

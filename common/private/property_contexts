@@ -12,6 +12,11 @@ ro.csc.                                      u:object_r:vendor_public_csc_prop:s
 ### MDC
 mdc.                                         u:object_r:vendor_public_config_prop:s0
 
+### OMC
+persist.sys.omc_support                      u:object_r:vendor_public_omc_prop:s0
+persist.sys.omc_etcpath                      u:object_r:vendor_public_omc_prop:s0
+ro.omc.                                      u:object_r:vendor_public_omc_prop:s0
+
 ### RADIO
 ril.NwNmId                                   u:object_r:vendor_public_radio_prop:s0
 ril.NwNmId2                                  u:object_r:vendor_public_radio_prop:s0
