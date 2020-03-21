@@ -1,6 +1,9 @@
 ### BLUETOOTH
 type vendor_public_bluetooth_prop, property_type;
 
+### BUILD
+type vendor_public_build_prop, property_type;
+
 ### CAMERA
 type vendor_public_camera_prop, property_type;
 
