@@ -1,0 +1,2 @@
+# device.te
+type fp_sensor_device, dev_type;
