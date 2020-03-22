@@ -2,10 +2,14 @@
 
 ### SYSFS
 genfscon sysfs /class/backlight/                                          u:object_r:sysfs_backlight_writable:s0
+genfscon sysfs /class/fingerprint/fingerprint                             u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /class/timed_output/vibrator/intensity                     u:object_r:sysfs_vibrator:s0
 genfscon sysfs /class/timed_output/vibrator/multi_freq                    u:object_r:sysfs_vibrator:s0
+
 genfscon sysfs /devices/platform/panel@0/backlight/panel/brightness       u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/max_brightness   u:object_r:sysfs_backlight_writable:s0
+
+genfscon sysfs /devices/virtual/fingerprint/fingerprint                   u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/intensity           u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/multi_freq          u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/cp_trigger_index    u:object_r:sysfs_vibrator:s0

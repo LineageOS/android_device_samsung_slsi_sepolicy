@@ -6,6 +6,7 @@ type conn_vendor_data_file, file_type, data_file_type;
 type wifi_vendor_data_file, file_type, data_file_type;
 
 ### SYSFS
+type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
 type sysfs_wifi, sysfs_type, r_fs_type, fs_type;
 
 type sysfs_backlight_writable, sysfs_type, rw_fs_type, fs_type;
