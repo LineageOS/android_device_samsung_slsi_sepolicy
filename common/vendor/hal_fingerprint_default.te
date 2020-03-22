@@ -1,0 +1,4 @@
+# hal_fingerprint_default.te
+
+# /dev/esfp[0-9]
+allow hal_fingerprint_default fp_sensor_device:chr_file rw_file_perms;
