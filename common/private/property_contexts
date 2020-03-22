@@ -1,31 +1,31 @@
 ### BLUETOOTH
-sys.bluetooth.tty                            u:object_r:vendor_public_bluetooth_prop:s0
+sys.bluetooth.tty                            u:object_r:exported_bluetooth_prop:s0
 
 ### BUILD
-ro.build.PDA                                 u:object_r:vendor_public_build_prop:s0
+ro.build.PDA                                 u:object_r:exported2_default_prop:s0
 
 ### CAMERA
-system.camera.CC.                            u:object_r:vendor_public_camera_prop:s0
-service.camera.                              u:object_r:vendor_public_camera_prop:s0
-sys.cameramode.                              u:object_r:vendor_public_camera_prop:s0
-ro.camera.req.fmq.size                       u:object_r:vendor_public_camera_prop:s0
-ro.camera.res.fmq.size                       u:object_r:vendor_public_camera_prop:s0
+system.camera.CC.                            u:object_r:exported_camera_prop:s0
+service.camera.                              u:object_r:exported_camera_prop:s0
+sys.cameramode.                              u:object_r:exported_camera_prop:s0
+ro.camera.req.fmq.size                       u:object_r:exported_camera_prop:s0
+ro.camera.res.fmq.size                       u:object_r:exported_camera_prop:s0
 
 ### CSC
-ro.csc.                                      u:object_r:vendor_public_csc_prop:s0
+ro.csc.                                      u:object_r:exported_config_prop:s0
 
 ### MDC
-mdc.                                         u:object_r:vendor_public_config_prop:s0
+mdc.                                         u:object_r:exported_config_prop:s0
 
 ### OMC
-persist.sys.omc_support                      u:object_r:vendor_public_omc_prop:s0
-persist.sys.omc_etcpath                      u:object_r:vendor_public_omc_prop:s0
-ro.omc.                                      u:object_r:vendor_public_omc_prop:s0
+persist.sys.omc_support                      u:object_r:exported_config_prop:s0
+persist.sys.omc_etcpath                      u:object_r:exported_config_prop:s0
+ro.omc.                                      u:object_r:exported_config_prop:s0
 
 ### RADIO
-ril.NwNmId                                   u:object_r:vendor_public_radio_prop:s0
-ril.NwNmId2                                  u:object_r:vendor_public_radio_prop:s0
-ro.boot.cpboot                               u:object_r:vendor_public_radio_prop:s0
+ril.NwNmId                                   u:object_r:exported_radio_prop:s0
+ril.NwNmId2                                  u:object_r:exported_radio_prop:s0
+ro.boot.cpboot                               u:object_r:exported_radio_prop:s0
 
 ### RFKILL
 ro.rfkilldisabled                            u:object_r:rfkilldisabled_prop:s0
