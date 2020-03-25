@@ -3,18 +3,31 @@
 ### SYSFS
 genfscon sysfs /class/backlight/                                          u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /class/fingerprint/fingerprint                             u:object_r:sysfs_fingerprint:s0
+genfscon sysfs /class/input                                               u:object_r:sysfs_input:s0
+genfscon sysfs /class/power_supply                                        u:object_r:sysfs_battery:s0
+genfscon sysfs /class/sec/tsp                                             u:object_r:sysfs_sec_touchscreen:s0
 genfscon sysfs /class/timed_output/vibrator/intensity                     u:object_r:sysfs_vibrator:s0
 genfscon sysfs /class/timed_output/vibrator/multi_freq                    u:object_r:sysfs_vibrator:s0
 
+genfscon sysfs /devices/platform/battery/power_supply                     u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/battery/power_supply/battery/lcd         u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/brightness       u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/max_brightness   u:object_r:sysfs_backlight_writable:s0
 
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                   u:object_r:sysfs_fingerprint:s0
+genfscon sysfs /devices/virtual/input                                     u:object_r:sysfs_input:s0
+genfscon sysfs /devices/virtual/sec/tsp                                   u:object_r:sysfs_sec_touchscreen:s0
+genfscon sysfs /devices/virtual/sec/tsp/cmd                               u:object_r:sysfs_touchscreen_writable:s0
+genfscon sysfs /devices/virtual/sec/tsp/ear_detect_enable                 u:object_r:sysfs_touchscreen_writable:s0
+genfscon sysfs /devices/virtual/timed_output/vibrator/cp_trigger_index    u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/intensity           u:object_r:sysfs_vibrator:s0
 genfscon sysfs /devices/virtual/timed_output/vibrator/multi_freq          u:object_r:sysfs_vibrator:s0
-genfscon sysfs /devices/virtual/timed_output/vibrator/cp_trigger_index    u:object_r:sysfs_vibrator:s0
 
 genfscon sysfs /module/dhd/parameters                                     u:object_r:sysfs_wifi_writable:s0
+
+genfscon sysfs /power/cpufreq_max_limit                                   u:object_r:sysfs_power_writable:s0
+genfscon sysfs /power/cpufreq_min_limit                                   u:object_r:sysfs_power_writable:s0
+genfscon sysfs /power/cpuhotplug/max_online_cpu                           u:object_r:sysfs_power_writable:s0
 
 genfscon sysfs /wifi                                                      u:object_r:sysfs_wifi:s0
 genfscon sysfs /wifi/cid                                                  u:object_r:sysfs_wifi_writable:s0
