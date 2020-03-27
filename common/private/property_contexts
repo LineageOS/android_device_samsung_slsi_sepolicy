@@ -26,6 +26,7 @@ ro.omc.                                      u:object_r:exported_config_prop:s0
 ril.NwNmId                                   u:object_r:exported_radio_prop:s0
 ril.NwNmId2                                  u:object_r:exported_radio_prop:s0
 ro.boot.cpboot                               u:object_r:exported_radio_prop:s0
+ro.simbased.changetype                       u:object_r:exported_config_prop:s0
 
 ### RFKILL
 ro.rfkilldisabled                            u:object_r:rfkilldisabled_prop:s0
