@@ -9,3 +9,5 @@ type radio_block_device, dev_type;
 type sec_efs_block_device, dev_type;
 
 type fp_sensor_device, dev_type;
+type io_device, dev_type;
+type ssp_device, dev_type;
