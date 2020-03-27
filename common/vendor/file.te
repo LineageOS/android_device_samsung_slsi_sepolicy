@@ -5,6 +5,16 @@ type biometrics_vendor_data_file, file_type, data_file_type;
 type conn_vendor_data_file, file_type, data_file_type;
 type wifi_vendor_data_file, file_type, data_file_type;
 
+# EFS
+type app_efs_file, file_type;
+type bin_nv_data_efs_file, file_type;
+type imei_efs_file, file_type;
+type pfw_efs_file, file_type;
+type prov_efs_file, file_type;
+type sec_efs_file, file_type;
+type tee_efs_file, file_type;
+type wifi_efs_file, file_type;
+
 ### SYSFS
 type sysfs_battery, sysfs_type, r_fs_type, fs_type;
 type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
