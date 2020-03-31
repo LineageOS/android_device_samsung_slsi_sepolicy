@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfa2f4dd_ba31856c",
+        "filename": "sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-03-31T16:03:30Z",
+      "side": 1,
+      "message": "These should be device/samsung_slsi/sepolicy/..",
+      "revId": "e0e753d16374117af745caac54c98f7b33ea44e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de6f5afb_9ba60510",
+        "filename": "sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-03-31T16:03:30Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e0e753d16374117af745caac54c98f7b33ea44e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84bc57fd_5df79856",
+        "filename": "sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-03-31T16:03:30Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e0e753d16374117af745caac54c98f7b33ea44e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
