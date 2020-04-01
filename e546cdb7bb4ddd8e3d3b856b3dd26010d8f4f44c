@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d3517a9_fd03221c",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "These nodes will be platform/device dependant, should these be in the device policy rather than global common policy?",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9cfef1bc_dddf8125",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "276708aa_8a15f456",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2e2a353d_6501563c",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bca87c56_e36c1825",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59e2e03b_00e7ae23",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 19057
+      },
+      "writtenOn": "2020-04-01T11:10:21Z",
+      "side": 1,
+      "message": "^",
+      "revId": "e546cdb7bb4ddd8e3d3b856b3dd26010d8f4f44c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
