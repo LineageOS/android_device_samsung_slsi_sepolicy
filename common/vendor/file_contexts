@@ -4,6 +4,8 @@
 /data/vendor/biometrics(/.*)?                u:object_r:biometrics_vendor_data_file:s0
 /data/vendor/conn(/.*)?                      u:object_r:conn_vendor_data_file:s0
 /data/vendor/wifi(/.*)?                      u:object_r:wifi_vendor_data_file:s0
+/data/vendor/log(/.*)?                       u:object_r:log_vendor_data_file:s0
+/data/vendor/log/cbd(/.*)?                   u:object_r:log_cbd_vendor_data_file:s0
 
 ### DEV
 /dev/block/platform/.+/by-name/cache         u:object_r:cache_block_device:s0
@@ -22,6 +24,13 @@
 /dev/esfp[0-9]                               u:object_r:fp_sensor_device:s0
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
+
+/dev/umts_boot0                              u:object_r:vendor_radio_device:s0
+/dev/umts_cass                               u:object_r:vendor_radio_device:s0
+/dev/umts_ipc[0-1]                           u:object_r:vendor_radio_device:s0
+/dev/umts_dm0                                u:object_r:vendor_radio_device:s0
+/dev/umts_rfs0                               u:object_r:vendor_radio_device:s0
+/dev/umts_router                             u:object_r:vendor_radio_device:s0
 
 ### EFS
 /efs/DAK(/.*)?                               u:object_r:prov_efs_file:s0
@@ -51,6 +60,8 @@
 /mnt/vendor/efs/wifi(/.*)?                   u:object_r:wifi_efs_file:s0
 
 ### VENDOR
+/(vendor|system/vendor)/bin/cbd              u:object_r:cbd_exec:s0
+
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@[0-9].[0-9]-service\.samsung    u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@[0-9].[0-9]-service\.samsung              u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@[0-9].[0-9]-service\.exynos               u:object_r:hal_power_default_exec:s0

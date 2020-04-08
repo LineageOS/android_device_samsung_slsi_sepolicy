@@ -3,6 +3,8 @@
 ### DATA
 type biometrics_vendor_data_file, file_type, data_file_type;
 type conn_vendor_data_file, file_type, data_file_type;
+type log_vendor_data_file, file_type, data_file_type;
+type log_cbd_vendor_data_file, file_type, data_file_type;
 type wifi_vendor_data_file, file_type, data_file_type;
 
 # EFS
@@ -24,6 +26,7 @@ type sysfs_input, sysfs_type, r_fs_type, fs_type;
 type sysfs_sec_key, sysfs_type, r_fs_type, fs_type;
 type sysfs_sec_sensors, sysfs_type, r_fs_type, fs_type;
 type sysfs_sec_touchscreen, sysfs_type, r_fs_type, fs_type;
+type sysfs_sim, sysfs_type, r_fs_type, fs_type;
 type sysfs_sensors, sysfs_type, r_fs_type, fs_type;
 type sysfs_wifi, sysfs_type, r_fs_type, fs_type;
 
@@ -32,6 +35,7 @@ type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_lcd_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_power_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_sensors_writable, sysfs_type, rw_fs_type, fs_type;
+type sysfs_sim_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_spi_writeable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_touchscreen_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_wifi_writable, sysfs_type, rw_fs_type, fs_type;

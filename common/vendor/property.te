@@ -1,0 +1,4 @@
+# property.te
+
+type vendor_cbd_prop, property_type;
+type vendor_radio_prop, property_type;
