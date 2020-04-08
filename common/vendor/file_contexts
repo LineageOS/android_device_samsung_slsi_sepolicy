@@ -6,6 +6,7 @@
 /data/vendor/wifi(/.*)?                      u:object_r:wifi_vendor_data_file:s0
 /data/vendor/log(/.*)?                       u:object_r:log_vendor_data_file:s0
 /data/vendor/log/cbd(/.*)?                   u:object_r:log_cbd_vendor_data_file:s0
+/data/vendor/secradio(/.*)?                  u:object_r:radio_vendor_data_file:s0
 
 ### DEV
 /dev/block/platform/.+/by-name/cache         u:object_r:cache_block_device:s0
@@ -25,6 +26,11 @@
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
 
+### radio
+# DRB
+/dev/drb                                     u:object_r:drb_device:s0
+
+# UMTS
 /dev/umts_boot0                              u:object_r:vendor_radio_device:s0
 /dev/umts_cass                               u:object_r:vendor_radio_device:s0
 /dev/umts_ipc[0-1]                           u:object_r:vendor_radio_device:s0
