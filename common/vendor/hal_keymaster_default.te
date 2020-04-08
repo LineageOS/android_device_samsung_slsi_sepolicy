@@ -1,0 +1,4 @@
+# hal_keymaster_default
+
+# /mnt/vendor
+allow hal_keymaster_default mnt_vendor_file:dir search;
