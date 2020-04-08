@@ -27,6 +27,10 @@
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
 
+### epic
+/dev/mode                                    u:object_r:epic_device:s0
+/dev/socket/epic                             u:object_r:epicd_socket:s0
+
 ### gnss/gps
 /dev/bbd_control                             u:object_r:bbd_device:s0
 /dev/bbd_packet                              u:object_r:bbd_device:s0
@@ -38,7 +42,25 @@
 /dev/ttyBCM[0-9]*                            u:object_r:bbd_device:s0
 
 ### qos
+/dev/bus_throughput                          u:object_r:pm_qos_device:s0
+/dev/bus_throughput_max                      u:object_r:pm_qos_device:s0
+/dev/cluster0_freq_max                       u:object_r:pm_qos_device:s0
+/dev/cluster0_freq_min                       u:object_r:pm_qos_device:s0
+/dev/cluster1_freq_max                       u:object_r:pm_qos_device:s0
+/dev/cluster1_freq_min                       u:object_r:pm_qos_device:s0
+/dev/cluster2_freq_max                       u:object_r:pm_qos_device:s0
+/dev/cluster2_freq_min                       u:object_r:pm_qos_device:s0
+/dev/cpu_online_max                          u:object_r:pm_qos_device:s0
+/dev/cpu_online_min                          u:object_r:pm_qos_device:s0
+/dev/device_throughput                       u:object_r:pm_qos_device:s0
+/dev/device_throughput_max                   u:object_r:pm_qos_device:s0
+/dev/gpu_freq_max                            u:object_r:pm_qos_device:s0
+/dev/gpu_freq_min                            u:object_r:pm_qos_device:s0
+/dev/mfc_throughput                          u:object_r:pm_qos_device:s0
+/dev/mfc_throughput_max                      u:object_r:pm_qos_device:s0
 /dev/network_throughput                      u:object_r:radio_qos_device:s0
+/dev/npu_throughput                          u:object_r:pm_qos_device:s0
+/dev/npu_throughput_max                      u:object_r:pm_qos_device:s0
 
 ### radio
 # DRB
