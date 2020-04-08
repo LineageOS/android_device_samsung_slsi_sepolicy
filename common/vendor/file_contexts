@@ -27,6 +27,16 @@
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
 
+### gnss/gps
+/dev/bbd_control                             u:object_r:bbd_device:s0
+/dev/bbd_packet                              u:object_r:bbd_device:s0
+/dev/bbd_patch                               u:object_r:bbd_device:s0
+/dev/bbd_reliable                            u:object_r:bbd_device:s0
+/dev/bbd_sensor                              u:object_r:bbd_device:s0
+/dev/bbd_sio                                 u:object_r:bbd_device:s0
+/dev/bbd_urgent_patch                        u:object_r:bbd_device:s0
+/dev/ttyBCM[0-9]*                            u:object_r:bbd_device:s0
+
 ### radio
 # DRB
 /dev/drb                                     u:object_r:drb_device:s0
