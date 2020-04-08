@@ -37,6 +37,9 @@
 /dev/bbd_urgent_patch                        u:object_r:bbd_device:s0
 /dev/ttyBCM[0-9]*                            u:object_r:bbd_device:s0
 
+### qos
+/dev/network_throughput                      u:object_r:radio_qos_device:s0
+
 ### radio
 # DRB
 /dev/drb                                     u:object_r:drb_device:s0
