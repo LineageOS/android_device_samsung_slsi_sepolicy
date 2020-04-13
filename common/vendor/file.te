@@ -11,6 +11,7 @@ type wifi_vendor_data_file, file_type, data_file_type;
 
 # EFS
 type app_efs_file, file_type;
+type battery_efs_file, file_type;
 type bin_nv_data_efs_file, file_type;
 type cpk_efs_file, file_type;
 type imei_efs_file, file_type;
