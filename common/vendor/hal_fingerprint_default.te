@@ -1,5 +1,7 @@
 # hal_fingerprint_default.te
 
+add_hwservice(hal_fingerprint_default, hal_vendor_fingerprint_hwservice)
+
 # /dev/esfp[0-9]
 allow hal_fingerprint_default fp_sensor_device:chr_file rw_file_perms;
 
