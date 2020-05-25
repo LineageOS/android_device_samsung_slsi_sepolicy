@@ -24,6 +24,9 @@ allow lhd bbd_device:chr_file rw_file_perms;
 # /dev/socket/fwmarkd
 allow lhd fwmarkd_socket:sock_file write;
 
+# /sys/bbd/lk_enable
+r_dir_file(lhd, sysfs_bbd)
+
 # /sys/class/sec/gps
 allow lhd sysfs_sec_gps:dir r_dir_perms;
 allow lhd sysfs_sec_gps:file r_file_perms;
