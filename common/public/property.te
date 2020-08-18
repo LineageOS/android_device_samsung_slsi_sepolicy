@@ -1,2 +1,2 @@
 ### RFKILL
-type rfkilldisabled_prop, property_type;
+vendor_public_prop(rfkilldisabled_prop)
