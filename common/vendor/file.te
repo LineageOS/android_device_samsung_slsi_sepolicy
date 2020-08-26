@@ -42,6 +42,7 @@ type sysfs_wifi, sysfs_type, r_fs_type, fs_type;
 
 type sysfs_backlight_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
+type sysfs_bt_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_gps_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_lcd_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_power_writable, sysfs_type, rw_fs_type, fs_type;
