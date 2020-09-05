@@ -27,6 +27,10 @@
 /dev/batch_io                                u:object_r:io_device:s0
 /dev/ssp_sensorhub                           u:object_r:ssp_device:s0
 
+/dev/mobicore                                u:object_r:tee_device:s0
+/dev/mobicore-user                           u:object_r:tee_device:s0
+/dev/t-base-tui                              u:object_r:tee_device:s0
+
 # bluetooth
 /dev/ttySAC[0-9]                             u:object_r:bt_device:s0
 

@@ -14,3 +14,6 @@ allow hal_fingerprint_default biometrics_vendor_data_file:file create_file_perms
 # /sys/class/fingerprint/
 allow hal_fingerprint_default sysfs_fingerprint:dir r_dir_perms;
 allow hal_fingerprint_default sysfs_fingerprint:file r_file_perms;
+
+# /dev/mobicore-user
+allow hal_fingerprint_default tee_device:chr_file rw_file_perms;

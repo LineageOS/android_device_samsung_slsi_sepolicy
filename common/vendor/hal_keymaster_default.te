@@ -5,3 +5,5 @@ allow hal_keymaster_default mnt_vendor_file:dir search;
 
 # /mnt/vendor/efs
 allow hal_keymaster_default efs_file:dir search;
+
+get_prop(hal_keymaster_default, tee_prop)
