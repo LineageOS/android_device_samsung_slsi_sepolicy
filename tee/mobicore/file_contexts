@@ -1,0 +1,3 @@
+/dev/mobicore                                u:object_r:tee_device:s0
+/dev/mobicore-user                           u:object_r:tee_device:s0
+/dev/t-base-tui                              u:object_r:tee_device:s0
