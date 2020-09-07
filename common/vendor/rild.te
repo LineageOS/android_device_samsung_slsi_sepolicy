@@ -1,5 +1,7 @@
 # rild.te
 
+get_prop(rild, vendor_radio_prop)
+
 allow rild block_device:dir search;
 allow rild mnt_vendor_file:dir { getattr search };
 
