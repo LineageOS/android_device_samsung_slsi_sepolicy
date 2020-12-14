@@ -22,6 +22,9 @@ type sec_efs_file, file_type;
 type tee_efs_file, file_type;
 type wifi_efs_file, file_type;
 
+# PROC
+type proc_last_kmsg, fs_type, proc_type;
+
 # SOCKETS
 type epicd_socket, file_type, data_file_type;
 
