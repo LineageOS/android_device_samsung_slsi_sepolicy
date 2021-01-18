@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "d915872d_c1033b2d",
+        "filename": "common/vendor/fastbootd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2021-01-18T15:19:31Z",
+      "side": 1,
+      "message": "I didn\u0027t want to say that\nAnd yeah you are right, seems like it\u0027s not needed at least not unless you are going to set a battery voltage threshold \u003e 0 for flashing",
+      "parentUuid": "eded1d29_87fbcd18",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 36
+      },
+      "revId": "3114a9d089bd197dd0af374c78f1be956386fb4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "941e9bc5_899bbccd",
         "filename": "common/vendor/fastbootd.te",
         "patchSetId": 2
