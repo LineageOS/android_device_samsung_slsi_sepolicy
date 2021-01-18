@@ -22,6 +22,30 @@
       "revId": "1172853161853e09927a019a842219c7ce09cce7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ff80ff4e_58882f67",
+        "filename": "common/vendor/fastbootd.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2021-01-18T14:49:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c93bf42_c447ba70",
+      "range": {
+        "startLine": 14,
+        "startChar": 34,
+        "endLine": 14,
+        "endChar": 35
+      },
+      "revId": "1172853161853e09927a019a842219c7ce09cce7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
