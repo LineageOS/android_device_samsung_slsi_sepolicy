@@ -1,0 +1,14 @@
+# fastbootd.te
+
+r_dir_file(fastbootd, sysfs_battery);
+
+allow fastbootd {
+    boot_block_device
+    dtbo_block_device
+    recovery_block_device
+}:blk_file rw_file_perms;
+
+allow fastbootd kernel:process setsched;
+
+get_prop(fastbootd, storage_config_prop);
+set_prop(fastbootd, boottime_prop);
