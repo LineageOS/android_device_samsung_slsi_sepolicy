@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42341415_5961b211",
+        "filename": "common/vendor/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2021-01-21T20:45:22Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be moved down below ear_detect_enable node?",
+      "revId": "e549452891de6026fa9dd52b8bb5f634154e2f0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
