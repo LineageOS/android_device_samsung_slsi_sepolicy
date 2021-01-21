@@ -32,6 +32,7 @@ genfscon sysfs /devices/virtual/lcd/panel                                 u:obje
 genfscon sysfs /devices/virtual/sec/gps                                   u:object_r:sysfs_sec_gps:s0
 genfscon sysfs /devices/virtual/sec/sec_key                               u:object_r:sysfs_sec_key:s0
 genfscon sysfs /devices/virtual/sec/tsp                                   u:object_r:sysfs_sec_touchscreen:s0
+genfscon sysfs /devices/virtual/sec/tsp/enabled                           u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/cmd                               u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/ear_detect_enable                 u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/prox_power_off                    u:object_r:sysfs_touchscreen_writable:s0
