@@ -35,6 +35,7 @@ genfscon sysfs /devices/virtual/sec/tsp                                   u:obje
 genfscon sysfs /devices/virtual/sec/tsp/cmd                               u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/ear_detect_enable                 u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sec/tsp/prox_power_off                    u:object_r:sysfs_touchscreen_writable:s0
+genfscon sysfs /devices/virtual/sec/tsp/input/enabled                     u:object_r:sysfs_touchscreen_writable:s0
 genfscon sysfs /devices/virtual/sensor_event                              u:object_r:sysfs_sensors:s0
 genfscon sysfs /devices/virtual/sensors                                   u:object_r:sysfs_sensors:s0
 genfscon sysfs /devices/virtual/sensors/hidden_hole/hh_check_coef         u:object_r:sysfs_sensors_writable:s0
