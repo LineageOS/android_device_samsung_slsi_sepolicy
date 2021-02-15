@@ -1,4 +1,5 @@
 # device.te
+type cpefs_block_device, dev_type;
 type efs_block_device, dev_type;
 type dqmdbg_block_device, dev_type;
 type dtbo_block_device, dev_type;
