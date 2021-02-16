@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c53f296f_bc8f72ce",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2021-02-16T15:21:31Z",
+      "side": 1,
+      "message": "couldnt you just do `(@[0-9]\\.[0-9])?` to combine both into one?",
+      "range": {
+        "startLine": 126,
+        "startChar": 55,
+        "endLine": 126,
+        "endChar": 67
+      },
+      "revId": "51e6bedbffe085620128adcb5d773935a27ca6c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
