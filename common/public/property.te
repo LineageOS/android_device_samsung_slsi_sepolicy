@@ -1,2 +1,5 @@
 ### RFKILL
 type rfkilldisabled_prop, property_type;
+
+# Ril
+type vendor_radio_prop, property_type;
