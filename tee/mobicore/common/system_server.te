@@ -1,0 +1,2 @@
+# /vendor/app/mcRegistry/
+allow system_server mobicore_vendor_file:dir r_dir_perms;
