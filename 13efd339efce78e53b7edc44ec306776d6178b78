@@ -123,6 +123,24 @@
       "revId": "13efd339efce78e53b7edc44ec306776d6178b78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "876964a0_5214e4bd",
+        "filename": "tee/mobicore/common/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 19907
+      },
+      "writtenOn": "2021-07-16T11:12:37Z",
+      "side": 1,
+      "message": "*Cannot unlock device with fingerprint",
+      "parentUuid": "9f88e690_5d102c80",
+      "revId": "13efd339efce78e53b7edc44ec306776d6178b78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
