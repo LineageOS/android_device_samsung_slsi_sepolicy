@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "23eaacd3_b08dfc69",
+        "filename": "tee/mobicore/common/device.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2021-07-16T09:20:07Z",
+      "side": 1,
+      "message": "file_type and should be moved to file.te",
+      "range": {
+        "startLine": 1,
+        "startChar": 27,
+        "endLine": 1,
+        "endChar": 35
+      },
+      "revId": "13efd339efce78e53b7edc44ec306776d6178b78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ec9dde6_324ceb53",
+        "filename": "tee/mobicore/common/system_server.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2021-07-16T09:20:07Z",
+      "side": 1,
+      "message": "i dont think this one is really needed",
+      "revId": "13efd339efce78e53b7edc44ec306776d6178b78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
