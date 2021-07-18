@@ -1,0 +1,2 @@
+# /vendor/app/mcRegistry/
+allow hal_gatekeeper_default mobicore_vendor_file:file rw_file_perms;
