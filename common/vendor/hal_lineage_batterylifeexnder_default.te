@@ -1,0 +1,6 @@
+# hal_lineage_batterylifeextender_default
+
+set_prop(hal_lineage_batterylifeextender, vendor_batterylifeextender_prop)
+
+allow hal_lineage_batterylifeextender_default sysfs_battery:dir search;
+allow hal_lineage_batterylifeextender_default sysfs_battery_writable:file rw_file_perms;

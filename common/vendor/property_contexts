@@ -1,3 +1,6 @@
+### batterylifeextender
+persist.vendor.sec.battlifeext_enabled     u:object_r:vendor_batterylifeextender_prop:s0
+
 ### cbd
 vendor.cbd.                    u:object_r:vendor_cbd_prop:s0
 persist.vendor.cbd.            u:object_r:vendor_radio_prop:s0
