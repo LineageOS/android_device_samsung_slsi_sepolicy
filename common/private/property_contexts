@@ -1,9 +1,6 @@
 ### BLUETOOTH
 sys.bluetooth.tty                            u:object_r:exported_bluetooth_prop:s0
 
-### BUILD
-ro.build.PDA                                 u:object_r:exported2_default_prop:s0
-
 ### CAMERA
 system.camera.CC.                            u:object_r:exported_camera_prop:s0
 service.camera.                              u:object_r:exported_camera_prop:s0
