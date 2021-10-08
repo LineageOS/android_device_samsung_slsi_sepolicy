@@ -1,6 +1,6 @@
 # property.te
 
-type vendor_cbd_prop, property_type;
-type vendor_radio_prop, property_type;
-type vendor_fastcharge_prop, property_type;
-type vendor_wifi_prop, property_type;
+type vendor_cbd_prop, vendor_property_type, property_type;
+type vendor_radio_prop, vendor_property_type, property_type;
+type vendor_fastcharge_prop, vendor_property_type, property_type;
+type vendor_wifi_prop, vendor_property_type, property_type;
