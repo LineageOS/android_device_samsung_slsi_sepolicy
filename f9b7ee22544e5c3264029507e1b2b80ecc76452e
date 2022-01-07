@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4ee3c49_6bddaa55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19907
+      },
+      "writtenOn": "2022-01-07T16:19:32Z",
+      "side": 1,
+      "message": "set_prop already does that\nhttps://github.com/LineageOS/android_system_sepolicy/blob/lineage-19.0/public/te_macros#L328",
+      "revId": "f9b7ee22544e5c3264029507e1b2b80ecc76452e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
