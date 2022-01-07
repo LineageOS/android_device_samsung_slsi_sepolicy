@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93150afd_25b89fde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19907
+      },
+      "writtenOn": "2022-01-07T16:22:07Z",
+      "side": 1,
+      "message": "Move vendor_internal_prop(tee_prop) to tee/mobicore/common",
+      "revId": "ddfd906cd4eb4d11a60d31107acc68639a1fd1f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
