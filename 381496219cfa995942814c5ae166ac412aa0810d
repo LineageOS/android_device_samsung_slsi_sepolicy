@@ -16,6 +16,23 @@
       "message": "this does not compile on legacy exynos devices - at least on 8890. build fails hard https://pastebin.com/trYSxjsH",
       "revId": "381496219cfa995942814c5ae166ac412aa0810d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47724476_58038577",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2022-01-14T08:51:13Z",
+      "side": 1,
+      "message": "I remove my -1 as we think the issue is not in here but in lineage sepolicy",
+      "revId": "381496219cfa995942814c5ae166ac412aa0810d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
