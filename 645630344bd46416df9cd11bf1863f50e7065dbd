@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d54a4ec_c0dd7cfb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30615
+      },
+      "writtenOn": "2022-03-06T19:14:16Z",
+      "side": 1,
+      "message": "Tested on starlte. 2nd sim got detected and fully functional.",
+      "revId": "645630344bd46416df9cd11bf1863f50e7065dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
