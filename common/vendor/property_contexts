@@ -7,7 +7,8 @@ ro.vendor.multisim.            u:object_r:vendor_radio_prop:s0
 ro.vendor.radio.               u:object_r:vendor_radio_prop:s0
 
 ### fastcharge
-persist.vendor.sec.fastchg_enabled     u:object_r:vendor_fastcharge_prop:s0
+persist.vendor.sec.fastchg_enabled      u:object_r:vendor_fastcharge_prop:s0
+persist.vendor.sec.superfastchg_enabled u:object_r:vendor_fastcharge_prop:s0
 
 ### wifi
 vendor.wifi.                   u:object_r:vendor_wifi_prop:s0
