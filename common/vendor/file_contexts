@@ -196,6 +196,7 @@
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.spen-service                            u:object_r:hal_samsung_spen_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.configstore@[0-9]\.[0-9]-service   u:object_r:hal_vendor_configstore_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.ExynosHWCServiceTW@[0-9]\.[0-9]-service    u:object_r:hal_vendor_hwcservice_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.SbwcDecompService@[0-9]\.[0-9]-service     u:object_r:hal_vendor_sbwcdecomp_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.tetheroffload@[0-9]\.[0-9]-service                  u:object_r:hal_tetheroffload_default_exec:s0
 
 /(vendor|system/vendor)/firmware(/.*)?       u:object_r:vendor_firmware_file:s0

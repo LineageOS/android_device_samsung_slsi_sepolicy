@@ -1,0 +1,4 @@
+# mediaserver.te
+
+allow mediaserver hal_vendor_sbwcdecomp_default:binder call;
+allow mediaserver hal_vendor_sbwcdecomp_hwservice:hwservice_manager find;

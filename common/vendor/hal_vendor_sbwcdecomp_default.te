@@ -1,0 +1,24 @@
+# hal_vendor_sbwcdecomp_default.te
+
+type hal_vendor_sbwcdecomp_default, domain;
+type hal_vendor_sbwcdecomp_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_vendor_sbwcdecomp_default)
+hal_client_domain(hal_vendor_sbwcdecomp_default, hal_allocator)
+
+allow hal_vendor_sbwcdecomp_default hwservicemanager:binder { transfer call };
+allow hal_vendor_sbwcdecomp_default hidl_base_hwservice:hwservice_manager add;
+allow hal_vendor_sbwcdecomp_default hidl_allocator_hwservice:hwservice_manager find;
+allow hal_vendor_sbwcdecomp_default hal_vendor_sbwcdecomp_hwservice:hwservice_manager { find add };
+allow hal_vendor_sbwcdecomp_default video_device:chr_file { read write open getattr ioctl map };
+allow hal_vendor_sbwcdecomp_default hal_graphics_allocator_default:fd use;
+allow hal_vendor_sbwcdecomp_default surfaceflinger:fd use;
+allow hal_vendor_sbwcdecomp_default surfaceflinger:fifo_file { read write };
+
+allow hal_vendor_sbwcdecomp_default graphics_device:dir { search };
+allow hal_vendor_sbwcdecomp_default graphics_device:chr_file { open read write ioctl };
+allow hal_vendor_sbwcdecomp_default ion_device:dir { search };
+allow hal_vendor_sbwcdecomp_default ion_device:chr_file { open read write ioctl };
+
+allow { appdomain -isolated_app_all } hal_vendor_sbwcdecomp_hwservice:hwservice_manager find;
+allow { appdomain -isolated_app_all } hal_vendor_sbwcdecomp_default:binder call;
