@@ -2,6 +2,10 @@
 vendor.cbd.                    u:object_r:vendor_cbd_prop:s0
 persist.vendor.cbd.            u:object_r:vendor_radio_prop:s0
 
+### hwc
+persist.vendor.display.        u:object_r:vendor_hwc_prop:s0
+vendor.display.                u:object_r:vendor_hwc_prop:s0
+
 ### radio
 ro.vendor.multisim.            u:object_r:vendor_radio_prop:s0
 ro.vendor.radio.               u:object_r:vendor_radio_prop:s0
