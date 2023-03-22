@@ -16,6 +16,24 @@
       "message": "Is this strictly needed? On S20 causes a denial. Surfaceflinger wants to read it, but giving the get_prop triggers a never allow. Removing it from here remove the denial in audit logs.",
       "revId": "5cdf34ddd7126fed6a72fe3ed8e7b9c9f551b32b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f767af05_2f3bd701",
+        "filename": "common/vendor/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2023-03-22T20:09:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8fd27d80_d38f432f",
+      "revId": "5cdf34ddd7126fed6a72fe3ed8e7b9c9f551b32b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
