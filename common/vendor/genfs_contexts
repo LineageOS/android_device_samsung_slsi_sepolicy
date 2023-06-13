@@ -24,6 +24,7 @@ genfscon sysfs /class/timed_output/vibrator/multi_freq                    u:obje
 
 genfscon sysfs /devices/platform/argos                                    u:object_r:sysfs_argos:s0
 genfscon sysfs /devices/platform/battery/power_supply                     u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/battery/power_supply/battery/batt_slate_mode u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/battery/power_supply/battery/lcd         u:object_r:sysfs_battery_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/brightness       u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/max_brightness   u:object_r:sysfs_backlight_writable:s0
