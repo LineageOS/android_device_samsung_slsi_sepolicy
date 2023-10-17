@@ -1,3 +1,5 @@
 # init.te
 
 allow init proc_last_kmsg:file setattr;
+
+allow init vbmeta_block_device:lnk_file relabelto;

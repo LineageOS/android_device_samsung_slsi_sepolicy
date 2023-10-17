@@ -4,4 +4,5 @@ allow fastbootd {
     boot_block_device
     dtbo_block_device
     recovery_block_device
+    vbmeta_block_device
 }:blk_file rw_file_perms;

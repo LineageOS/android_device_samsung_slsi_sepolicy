@@ -9,6 +9,7 @@ type modem_block_device, dev_type;
 type omr_block_device, dev_type;
 type radio_block_device, dev_type;
 type sec_efs_block_device, dev_type;
+type vbmeta_block_device, dev_type;
 
 type bbd_device, dev_type;
 type cpu_dma_device, dev_type;
