@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "641f5966_dc9b6048",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31890
+      },
+      "writtenOn": "2023-11-28T08:15:29Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_google_crosshatch/+/371643",
+      "revId": "2d694c51e89e1aaeb962f2abe30c61900982e16e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
