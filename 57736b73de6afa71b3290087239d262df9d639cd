@@ -16,6 +16,24 @@
       "message": "Why don\u0027t you replace samsung, considered that the HAL is being removed?",
       "revId": "57736b73de6afa71b3290087239d262df9d639cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4d4c0e5_efe9eaef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-06-30T10:05:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1c24285_d5104f2f",
+      "revId": "57736b73de6afa71b3290087239d262df9d639cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
