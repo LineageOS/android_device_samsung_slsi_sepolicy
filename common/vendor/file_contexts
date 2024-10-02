@@ -39,6 +39,7 @@
 
 /dev/esfp[0-9]                               u:object_r:fp_sensor_device:s0
 /dev/batch_io                                u:object_r:io_device:s0
+/dev/caminfo                                 u:object_r:camera_device:s0
 /dev/dri/card0                               u:object_r:graphics_device:s0
 /dev/shub_data_injection                     u:object_r:ssp_device:s0
 /dev/shub_sensorhub                          u:object_r:ssp_device:s0
