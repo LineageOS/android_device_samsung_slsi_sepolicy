@@ -31,6 +31,9 @@ genfscon sysfs /devices/platform/battery/power_supply/battery/lcd         u:obje
 genfscon sysfs /devices/platform/panel@0/backlight/panel/brightness       u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /devices/platform/panel@0/backlight/panel/max_brightness   u:object_r:sysfs_backlight_writable:s0
 genfscon sysfs /devices/platform/panel@0/lcd/panel                        u:object_r:sysfs_lcd_writable:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply u:object_r:sysfs_battery:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery/charging_enabled u:object_r:sysfs_battery_writable:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery/lcd u:object_r:sysfs_battery_writable:s0
 
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                   u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/input                                     u:object_r:sysfs_input:s0
