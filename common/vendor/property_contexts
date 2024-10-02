@@ -13,6 +13,9 @@ ro.vendor.radio.               u:object_r:vendor_radio_prop:s0
 ### fastcharge
 persist.vendor.sec.fastchg_enabled     u:object_r:vendor_fastcharge_prop:s0
 
+## gnss
+vendor.gnss.                   u:object_r:vendor_gnss_prop:s0
+
 ## thermal
 vendor.thermal.                u:object_r:vendor_thermal_prop:s0
 

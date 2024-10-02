@@ -35,3 +35,5 @@ allow gpsd fwmarkd_socket:sock_file write;
 allow gpsd gps_vendor_data_file:dir rw_dir_perms;
 allow gpsd gps_vendor_data_file:file create_file_perms;
 allow gpsd gps_vendor_data_file:fifo_file create_file_perms;
+
+set_prop(gpsd, vendor_gnss_prop)
