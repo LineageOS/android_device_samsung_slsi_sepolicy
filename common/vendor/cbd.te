@@ -63,3 +63,5 @@ allow cbd vendor_shell_exec:file execute_no_trans;
 # FIXME END
 
 vndbinder_use(cbd)
+
+get_prop(cbd, vendor_radio_prop)
