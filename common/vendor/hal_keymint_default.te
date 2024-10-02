@@ -1,0 +1,4 @@
+allow hal_keymint_default mnt_vendor_file:dir search;
+allow hal_keymint_default efs_file:dir search;
+
+r_dir_file(hal_keymint_default, prov_efs_file)
