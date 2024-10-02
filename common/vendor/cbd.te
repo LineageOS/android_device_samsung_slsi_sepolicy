@@ -61,3 +61,5 @@ set_prop(cbd, vendor_cbd_prop)
 # FIXME: Can we be more specific?
 allow cbd vendor_shell_exec:file execute_no_trans;
 # FIXME END
+
+vndbinder_use(cbd)
