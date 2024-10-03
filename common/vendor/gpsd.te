@@ -32,7 +32,7 @@ allow gpsd cgroup:file getattr;
 allow gpsd fwmarkd_socket:sock_file write;
 
 # /data/vendor/gps
-allow gpsd gps_vendor_data_file:dir rw_dir_perms;
+allow gpsd gps_vendor_data_file:dir create_dir_perms;
 allow gpsd gps_vendor_data_file:file create_file_perms;
 allow gpsd gps_vendor_data_file:fifo_file create_file_perms;
 
