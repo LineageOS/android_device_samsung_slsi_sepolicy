@@ -11,4 +11,4 @@ get_prop(hal_thermal_default, vendor_thermal_prop)
 
 hal_client_domain(hal_thermal_default, hal_power)
 
-allow hal_thermal_default self:netlink_kobject_uevent_socket { create bind read setopt };
+allow hal_thermal_default self:netlink_kobject_uevent_socket { create bind read setopt getopt };
