@@ -35,6 +35,7 @@
 /dev/block/platform/.+/by-name/(system|SYSTEM)      u:object_r:system_block_device:s0
 /dev/block/platform/.+/by-name/(userdata|USERDATA)  u:object_r:userdata_block_device:s0
 /dev/block/platform/.+/by-name/(vendor|VENDOR)      u:object_r:system_block_device:s0
+/dev/block/platform/.+/by-name/vendor_boot          u:object_r:boot_block_device:s0
 /dev/block/platform/.+/by-name/vbmeta               u:object_r:vbmeta_block_device:s0
 
 /dev/esfp[0-9]                               u:object_r:fp_sensor_device:s0
