@@ -46,6 +46,30 @@
       },
       "revId": "d3b16709aca45845ba89acbda206909b93d74a37",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01f6c786_c3cd644e",
+        "filename": "common/vendor/file.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2024-12-17T20:35:36Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "907ea434_b0b01d6e",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 57
+      },
+      "revId": "d3b16709aca45845ba89acbda206909b93d74a37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
