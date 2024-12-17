@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e1c6e02_002343d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-17T14:18:40Z",
+      "side": 1,
+      "message": "al",
+      "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e5368f1c_83892e94",
@@ -14,6 +31,24 @@
       "writtenOn": "2024-12-17T14:17:52Z",
       "side": 1,
       "message": "belongs to this group.",
+      "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b8d526f_1925a664",
+        "filename": "common/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-17T14:18:40Z",
+      "side": 1,
+      "message": "also nothing in LineageOS uses this type anyway...?",
+      "parentUuid": "e5368f1c_83892e94",
       "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
