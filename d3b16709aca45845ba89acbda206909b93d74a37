@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "907ea434_b0b01d6e",
+        "filename": "common/vendor/file.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-17T20:21:10Z",
+      "side": 1,
+      "message": "```suggestion\ntype biometrics_vendor_data_file, file_type, data_file_type;\ntype conn_vendor_data_file, file_type, data_file_type;\ntype display_vendor_data_file, file_type, data_file_type;\ntype gps_vendor_data_file, file_type, data_file_type;\ntype log_vendor_data_file, file_type, data_file_type;\ntype log_cbd_vendor_data_file, file_type, data_file_type;\ntype radio_vendor_data_file, file_type, data_file_type;\ntype thermal_vendor_data_file, file_type, data_file_type;\ntype wifi_vendor_data_file, file_type, data_file_type;\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 57
+      },
+      "revId": "d3b16709aca45845ba89acbda206909b93d74a37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
