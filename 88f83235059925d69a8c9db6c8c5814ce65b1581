@@ -16,6 +16,24 @@
       "message": "This will conflict with the definition in exynos9610 trees: https://github.com/LineageOS/android_device_motorola_exynos9610-common/blob/d6eb56abcba03760e798c747f55cec1fb6c5ed12/sepolicy/vendor/file.te#L8",
       "revId": "88f83235059925d69a8c9db6c8c5814ce65b1581",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cba38e24_aa8c4ae0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2024-12-17T16:49:15Z",
+      "side": 1,
+      "message": "well then we can remove it their tree as well, as something like this should be assigned in the common tree I believe.",
+      "parentUuid": "850426dc_43f15f34",
+      "revId": "88f83235059925d69a8c9db6c8c5814ce65b1581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
