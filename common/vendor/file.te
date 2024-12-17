@@ -65,3 +65,6 @@ type sysfs_wifi_writable, sysfs_type, rw_fs_type, fs_type;
 
 ### VENDOR
 type vendor_firmware_file, file_type, vendor_file_type;
+
+### THERMAL
+type thermal_vendor_data_file, file_type, data_file_type;
