@@ -51,6 +51,24 @@
       "parentUuid": "e5368f1c_83892e94",
       "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "600793f7_cf1fb049",
+        "filename": "common/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2024-12-17T16:46:58Z",
+      "side": 1,
+      "message": "Yes one thing in this repo does use that type, if you look at the latest commit on the lineage-22 branch of this repo you will see that, it seems that author didn\u0027t test the code and check that the type was defined somewhere in the code, hence this commit, without this patch the samsun_slsi_sepolicy will fail to build. I have done the fix you have asked for.",
+      "parentUuid": "4b8d526f_1925a664",
+      "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
