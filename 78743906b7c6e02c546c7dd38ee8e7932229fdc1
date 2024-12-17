@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5368f1c_83892e94",
+        "filename": "common/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-17T14:17:52Z",
+      "side": 1,
+      "message": "belongs to this group.",
+      "revId": "78743906b7c6e02c546c7dd38ee8e7932229fdc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
