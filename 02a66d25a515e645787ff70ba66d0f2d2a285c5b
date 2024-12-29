@@ -16,6 +16,24 @@
       "message": "Are we removing Samsung aidl HAL?",
       "revId": "02a66d25a515e645787ff70ba66d0f2d2a285c5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "561cb05f_f8a03109",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-12-29T14:55:15Z",
+      "side": 1,
+      "message": "I was planning to do so, yes.\nNot worth having to update it from pixel all the time when pixel one works fine, right?",
+      "parentUuid": "fe3f805a_e87ddf38",
+      "revId": "02a66d25a515e645787ff70ba66d0f2d2a285c5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
