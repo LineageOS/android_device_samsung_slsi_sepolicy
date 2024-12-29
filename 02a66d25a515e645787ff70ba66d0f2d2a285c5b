@@ -52,6 +52,24 @@
       "parentUuid": "561cb05f_f8a03109",
       "revId": "02a66d25a515e645787ff70ba66d0f2d2a285c5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7481179_bf3d6131",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-12-29T15:09:58Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/413260/1\n\nPushed it here together with some more updates for samsung HALs.",
+      "parentUuid": "2abb7365_0d0c9aeb",
+      "revId": "02a66d25a515e645787ff70ba66d0f2d2a285c5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
