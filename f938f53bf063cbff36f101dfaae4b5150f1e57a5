@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fd09595_c851aa02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2024-12-29T16:13:02Z",
+      "side": 1,
+      "message": "Changed it to leave AIDL HAL in for now (which partially was the case anyway because I rebased wrongly). We can remove it once everyone moved to pixel HAL (if possible) and we decided to merge the change in hw/samsung.",
+      "revId": "f938f53bf063cbff36f101dfaae4b5150f1e57a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
