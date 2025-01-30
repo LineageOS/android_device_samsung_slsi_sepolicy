@@ -146,7 +146,7 @@
 
 /(vendor|system/vendor)/bin/rebalance_interrupts-vendor          u:object_r:rebalance_interrupts_vendor_exec:s0
 
-/(vendor|system/vendor)/lib(64)?/hw/gralloc\.exynos[0-9]*\.so    u:object_r:same_process_hal_file:s0
+/(vendor|system/vendor)/lib(64)?/hw/gralloc\.[a-z0-9_]*\.so      u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/hw/vulkan\.mali\.so             u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/libion_exynos\.so               u:object_r:same_process_hal_file:s0
 
