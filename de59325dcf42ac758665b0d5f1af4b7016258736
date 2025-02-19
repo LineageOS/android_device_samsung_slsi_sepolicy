@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e96bcc3d_15a2787d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-19T23:39:41Z",
+      "side": 1,
+      "message": "nolenjohnson@ODS-PROD:~/lineage-22/device/samsung_slsi/sepolicy$ find -name Android.mk\nnolenjohnson@ODS-PROD:~/lineage-22/device/samsung_slsi/sepolicy",
+      "revId": "de59325dcf42ac758665b0d5f1af4b7016258736",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
