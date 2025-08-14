@@ -16,6 +16,23 @@
       "message": "Rebase this thing, please.",
       "revId": "97350be89042c9161d5ecf76c1b536b0379a623a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "128094bd_8e4614d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-14T21:53:37Z",
+      "side": 1,
+      "message": "Actually, nevermind. Pick the sepolicy part of https://review.lineageos.org/q/Ia2f1f213de2f2e5afd913e5de38712fddc386b49",
+      "revId": "97350be89042c9161d5ecf76c1b536b0379a623a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
