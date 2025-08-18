@@ -16,6 +16,23 @@
       "message": "Are you sure you can merge this?",
       "revId": "6a76bf29a5aeeb48ce124f233c7ce2febebbc719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b319fcb_eea1a19f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-08-18T21:10:18Z",
+      "side": 1,
+      "message": "that\u0027s why I held up - I realized you moved it to 22.2. I think this needs to be split into \"add AIDL\" and then for 23, remove HIDL.",
+      "revId": "6a76bf29a5aeeb48ce124f233c7ce2febebbc719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
