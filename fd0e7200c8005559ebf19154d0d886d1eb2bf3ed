@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a2e5d63_28f701a9",
+        "filename": "common/vendor/hal_usb_gadget_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-08-22T04:22:50Z",
+      "side": 1,
+      "message": "IMO this shouldn\u0027t have been merged since it grants permissions on a default label rather than assigning a proper label to current_speed node.",
+      "revId": "fd0e7200c8005559ebf19154d0d886d1eb2bf3ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
