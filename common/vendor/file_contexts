@@ -136,6 +136,9 @@
 ## VaultKeeper
 /dev/socket/vaultkeeper                      u:object_r:vaultkeeperd_socket:s0
 
+## USB
+/sys/devices/platform/(.*)/(.*)/udc/(.*)/current_speed u:object_r:sysfs_udc:s0
+
 ### VENDOR
 /(vendor|system/vendor)/bin/cass             u:object_r:cass_exec:s0
 /(vendor|system/vendor)/bin/cbd              u:object_r:cbd_exec:s0
