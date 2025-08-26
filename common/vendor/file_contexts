@@ -133,6 +133,9 @@
 /mnt/vendor/efs/tee(/.*)?                    u:object_r:tee_efs_file:s0
 /mnt/vendor/efs/wifi(/.*)?                   u:object_r:wifi_efs_file:s0
 
+## USB
+/sys/devices/platform/(.*)/(.*)/udc/(.*)/current_speed u:object_r:sysfs_udc:s0
+
 ## VaultKeeper
 /dev/socket/vaultkeeper                      u:object_r:vaultkeeperd_socket:s0
 
