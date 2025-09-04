@@ -34,6 +34,24 @@
       "parentUuid": "7a2e5d63_28f701a9",
       "revId": "fd0e7200c8005559ebf19154d0d886d1eb2bf3ed",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97390ad1_7bb9f326",
+        "filename": "common/vendor/hal_usb_gadget_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-09-04T19:31:05Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "e5172045_0df92bad",
+      "revId": "fd0e7200c8005559ebf19154d0d886d1eb2bf3ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
