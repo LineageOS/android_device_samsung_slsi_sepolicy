@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d37fb864_32f2d404",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-05T09:38:50Z",
+      "side": 1,
+      "message": "Are you really sure about this? It might not be the case here so far, but there are properties that are not allowed to exist in vendor.",
+      "revId": "5557fa8106c357a5d89e32b9dacbe68f12a1eb58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
