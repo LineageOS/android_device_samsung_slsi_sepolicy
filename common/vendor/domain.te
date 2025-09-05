@@ -1,1 +1,4 @@
+# Make sure that labels are used correctly
+neverallow { domain -vendor_init -ueventd } r_fs_type:file write;
+
 r_dir_file({domain - isolated_app_all}, sysfs_thermal)
