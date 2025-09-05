@@ -1,7 +1,5 @@
 # hal_bluetooth_default.te
 
-# ro.rfkilldisabled
-get_prop(hal_bluetooth_default, rfkilldisabled_prop)
 # vendor.bluetooth_fw_ver
 set_prop(hal_bluetooth_default, wifi_log_prop)
 # sys.bluetooth.tty
