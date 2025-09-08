@@ -13,6 +13,7 @@ genfscon sysfs /class/backlight/                                          u:obje
 genfscon sysfs /class/fingerprint/fingerprint                             u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /class/input                                               u:object_r:sysfs_input:s0
 genfscon sysfs /class/power_supply                                        u:object_r:sysfs_battery:s0
+genfscon sysfs /class/powercap                                            u:object_r:sysfs_thermal:s0
 genfscon sysfs /class/rtc/rtc0                                            u:object_r:sysfs_rtc:s0
 genfscon sysfs /class/sec/gps                                             u:object_r:sysfs_sec_gps:s0
 genfscon sysfs /class/sec/sensors                                         u:object_r:sysfs_sec_sensors:s0
@@ -41,6 +42,7 @@ genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:bat
 genfscon sysfs /devices/virtual/fingerprint/fingerprint                   u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/input                                     u:object_r:sysfs_input:s0
 genfscon sysfs /devices/virtual/lcd/panel                                 u:object_r:sysfs_lcd_writable:s0
+genfscon sysfs /devices/virtual/powercap                                  u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/virtual/sec/gps                                   u:object_r:sysfs_sec_gps:s0
 genfscon sysfs /devices/virtual/sec/sec_key                               u:object_r:sysfs_sec_key:s0
 genfscon sysfs /devices/virtual/sec/tsp                                   u:object_r:sysfs_sec_touchscreen:s0
