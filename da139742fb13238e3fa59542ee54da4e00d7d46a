@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "162c0a27_a015364e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-09-09T11:51:03Z",
+      "side": 1,
+      "message": "Tested on s5e8825 devices, offline charging works (only allow charger_vendor gpu_device:chr_file rw_file_perms; was needed in this case)",
+      "revId": "da139742fb13238e3fa59542ee54da4e00d7d46a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
