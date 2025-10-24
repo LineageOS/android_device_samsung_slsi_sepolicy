@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caf118ea_0a94cb75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2025-10-24T17:41:40Z",
+      "side": 1,
+      "message": "There is no point in labelling something as a type that doesn\u0027t exist",
+      "revId": "8b7f43c325835f264eb3bc6a8262f160c5795aff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
