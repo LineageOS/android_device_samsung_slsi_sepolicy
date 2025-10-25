@@ -33,6 +33,24 @@
       "message": "Misclick",
       "revId": "c78d254b7cc4e1836360ff6379fc4d8c462aa27e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d330ffe_f7075b7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35835
+      },
+      "writtenOn": "2025-10-25T13:22:39Z",
+      "side": 1,
+      "message": "Not anymore. I marked it as verified before because I forgot to delete device tree  side PROCA sepolicy but now I can indeed verify that PROCA does start fine and vaultkeerd does not crash.",
+      "parentUuid": "25d17490_4b969c80",
+      "revId": "c78d254b7cc4e1836360ff6379fc4d8c462aa27e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
