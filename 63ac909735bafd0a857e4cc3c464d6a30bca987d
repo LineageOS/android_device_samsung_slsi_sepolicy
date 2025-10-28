@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66fbfa69_39445ab1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-10-28T16:44:38Z",
+      "side": 1,
+      "message": "If you want this to be submitted u need to also make a patch removing proca sepolicies from here https://github.com/LineageOS/android_device_samsung_universal9830-common/blob/lineage-23.0/sepolicy/vendor/hal_proca_default.te",
+      "revId": "63ac909735bafd0a857e4cc3c464d6a30bca987d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
