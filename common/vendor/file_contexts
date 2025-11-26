@@ -70,6 +70,9 @@
 /dev/bbd_urgent_patch                        u:object_r:bbd_device:s0
 /dev/ttyBCM[0-9]*                            u:object_r:bbd_device:s0
 
+### NFC
+/dev/sec-nfc                                 u:object_r:nfc_device:s0
+
 ### qos
 /dev/bus_throughput                          u:object_r:pm_qos_device:s0
 /dev/bus_throughput_max                      u:object_r:pm_qos_device:s0
