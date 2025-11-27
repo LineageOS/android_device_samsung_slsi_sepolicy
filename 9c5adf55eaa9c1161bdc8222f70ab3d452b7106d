@@ -16,6 +16,24 @@
       "message": "Why was this abandoned?",
       "revId": "9c5adf55eaa9c1161bdc8222f70ab3d452b7106d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9dbd9a9_c7c94d49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2025-11-27T08:36:35Z",
+      "side": 1,
+      "message": "It is already there, I had mistakenly checked out an old ref locally.",
+      "parentUuid": "954b10cd_5c387fcc",
+      "revId": "9c5adf55eaa9c1161bdc8222f70ab3d452b7106d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
