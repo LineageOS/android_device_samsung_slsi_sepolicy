@@ -3,10 +3,12 @@
 ### DATA
 type biometrics_vendor_data_file, file_type, data_file_type;
 type conn_vendor_data_file, file_type, data_file_type;
+type data_eden_file, file_type, data_file_type;
+type data_eden_gpu_file, file_type, data_file_type;
 type display_vendor_data_file, file_type, data_file_type;
 type gps_vendor_data_file, file_type, data_file_type;
-type log_vendor_data_file, file_type, data_file_type;
 type log_cbd_vendor_data_file, file_type, data_file_type;
+type log_vendor_data_file, file_type, data_file_type;
 type radio_vendor_data_file, file_type, data_file_type;
 type thermal_vendor_data_file, file_type, data_file_type;
 type wifi_vendor_data_file, file_type, data_file_type;
@@ -67,4 +69,5 @@ type sysfs_touchscreen_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_wifi_writable, sysfs_type, rw_fs_type, fs_type;
 
 ### VENDOR
+type vendor_eden_gpu_vendor_file, file_type, vendor_file_type;
 type vendor_firmware_file, file_type, vendor_file_type;
