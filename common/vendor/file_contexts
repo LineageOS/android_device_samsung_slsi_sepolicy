@@ -4,12 +4,14 @@
 /data/vendor/biometrics(/.*)?                u:object_r:biometrics_vendor_data_file:s0
 /data/vendor/conn(/.*)?                      u:object_r:conn_vendor_data_file:s0
 /data/vendor/display(/.*)?                   u:object_r:display_vendor_data_file:s0
+/data/vendor/eden(/.*)?                      u:object_r:data_eden_file:s0
+/data/vendor/eden/gpu(/.*)?                  u:object_r:data_eden_gpu_file:s0
 /data/vendor/gps(/.*)?                       u:object_r:gps_vendor_data_file:s0
-/data/vendor/wifi(/.*)?                      u:object_r:wifi_vendor_data_file:s0
 /data/vendor/log(/.*)?                       u:object_r:log_vendor_data_file:s0
 /data/vendor/log/cbd(/.*)?                   u:object_r:log_cbd_vendor_data_file:s0
 /data/vendor/secradio(/.*)?                  u:object_r:radio_vendor_data_file:s0
 /data/vendor/thermal(/.*)?                   u:object_r:thermal_vendor_data_file:s0
+/data/vendor/wifi(/.*)?                      u:object_r:wifi_vendor_data_file:s0
 
 ### DEV
 /dev/block/platform/.+/by-name/(boot|BOOT)          u:object_r:boot_block_device:s0
@@ -72,6 +74,9 @@
 
 ### NFC
 /dev/sec-nfc                                 u:object_r:nfc_device:s0
+
+### NPU
+/dev/vertex10                                u:object_r:npu_device:s0
 
 ### qos
 /dev/bus_throughput                          u:object_r:pm_qos_device:s0
@@ -173,29 +178,32 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@[0-9]\.[0-9]-service\.clearkey              u:object_r:hal_drm_clearkey_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@[0-9]\.[0-9]-service\.widevine              u:object_r:hal_drm_widevine_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.samsung                         u:object_r:hal_health_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@[0-9]\.[0-9]-service\.samsung         u:object_r:hal_keymaster_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@[0-9]\.[0-9]_tee-service              u:object_r:hal_keymaster_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@[0-9]\.[0-9]-service\.samsung         u:object_r:hal_keymaster_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light(@[0-9].[0-9])?-service\.samsung           u:object_r:hal_light_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.samsung-mali                  u:object_r:hal_memtrack_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.exynos                        u:object_r:hal_memtrack_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.power@[0-9].[0-9]-service\.exynos               u:object_r:hal_power_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.samsung-mali                  u:object_r:hal_memtrack_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.neuralnetworks@[0-9]\.[0-9]-service\.eden-drv   u:object_r:hal_neuralnetworks_eden_drv_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc-service\.sec                            u:object_r:hal_nfc_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@[0-9]\.[0-9]-service\.samsung               u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power(@[0-9]\.[0-9])?-service\.pixel-libperfmgr u:object_r:hal_power_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@[0-9].[0-9]-service\.exynos               u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.security\.keymint-service\.samsung              u:object_r:hal_keymint_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal(@[0-9].[0-9])?-service\.exynos          u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal-service\.pixel                          u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal-service\.samsung                        u:object_r:hal_thermal_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal(@[0-9].[0-9])?-service\.exynos          u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb(@[0-9]\.[0-9])?-service\.samsung            u:object_r:hal_usb_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb\.gadget-service\.samsung                    u:object_r:hal_usb_gadget_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@[0-9]\.[0-9]-service\.samsung               u:object_r:hal_nfc_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc-service\.sec                            u:object_r:hal_nfc_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator(@[0-9].[0-9])?-service\.samsung(-haptic)?    u:object_r:hal_vibrator_default_exec:s0
 /(vendor|system/vendor)/bin/hw/samsung\.hardware\.media\.c2(@[0-9]\.[0-9])?-service               u:object_r:mediacodec_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.powershare-service\.samsung                       u:object_r:hal_lineage_powershare_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch-service.samsung                             u:object_r:hal_lineage_touch_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.gnss@[0-9].[0-9]-service                u:object_r:hal_gnss_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.spen-service                            u:object_r:hal_samsung_spen_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.configstore@[0-9]\.[0-9]-service   u:object_r:hal_vendor_configstore_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.eden_runtime@[0-9]\.[0-9]-service  u:object_r:hal_vendor_eden_runtime_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.ExynosHWCServiceTW@[0-9]\.[0-9]-service    u:object_r:hal_vendor_hwcservice_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung_slsi\.hardware\.tetheroffload@[0-9]\.[0-9]-service                  u:object_r:hal_tetheroffload_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.gnss@[0-9].[0-9]-service                u:object_r:hal_gnss_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.spen-service                            u:object_r:hal_samsung_spen_default_exec:s0
 
+/(vendor|system/vendor)/eden/gpu(/.*)?       u:object_r:vendor_eden_gpu_vendor_file:s0
 /(vendor|system/vendor)/firmware(/.*)?       u:object_r:vendor_firmware_file:s0
