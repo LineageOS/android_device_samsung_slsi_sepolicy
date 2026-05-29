@@ -1,0 +1,8 @@
+# hal_sbwcdecomp_default.te
+
+type hal_sbwcdecomp_default, domain;
+type hal_sbwcdecomp_default_exec, exec_type, vendor_file_type, file_type;
+
+hal_client_domain(hal_sbwcdecomp_default, hal_allocator_client)
+
+init_daemon_domain(hal_sbwcdecomp_default)
