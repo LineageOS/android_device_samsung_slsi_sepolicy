@@ -1,6 +1,8 @@
 vendor.samsung.hardware.keymint.ISehKeyMintExtension/default        u:object_r:hal_keymint_service:s0
 vendor.samsung.hardware.keymint.ISehKeyMintFactory/default          u:object_r:hal_keymint_service:s0
 
+android.hardware.neuralnetworks.IDevice/enn                         u:object_r:hal_neuralnetworks_service:s0
+vendor.samsung_slsi.hardware.enn_aidl.IEnnInterfaceAidl/default     u:object_r:hal_enn_service:s0
 vendor.samsung.hardware.radio.bridge.ISehRadioBridge/slot1          u:object_r:hal_radio_service:s0
 vendor.samsung.hardware.radio.bridge.ISehRadioBridge/slot2          u:object_r:hal_radio_service:s0
 vendor.samsung.hardware.radio.channel.ISehRadioChannel/epdgd        u:object_r:hal_radio_service:s0

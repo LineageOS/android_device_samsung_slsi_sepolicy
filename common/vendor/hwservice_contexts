@@ -7,3 +7,4 @@ vendor.samsung.hardware.radio::ISehRadio                             u:object_r:
 vendor.samsung_slsi.hardware.ExynosHWCServiceTW::IExynosHWCServiceTW u:object_r:hal_vendor_surfaceflinger_hwservice:s0
 vendor.samsung_slsi.hardware.configstore::IExynosHWCConfigs          u:object_r:hal_vendor_configstore_hwservice:s0
 vendor.samsung_slsi.hardware.eden_runtime::IEdenruntime              u:object_r:hal_vendor_eden_runtime_hwservice:s0
+vendor.samsung_slsi.hardware.SbwcDecompService::ISbwcDecompService   u:object_r:hal_sbwcdecomp_hwservice:s0
