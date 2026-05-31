@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c647f498_b3e07aa4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-05-31T23:56:17Z",
+      "side": 1,
+      "message": "```\ndevice/samsung_slsi/sepolicy/common/vendor/hal_neuralnetworks_eden_drv_default.te:23:ERROR \u0027unknown type sysfs_npu_version\u0027 at token \u0027;\u0027 on line 20210:\n}:file { getattr open read ioctl lock map watch watch_reads };\n    sysfs_npu_version\ncheckpolicy:  error(s) encountered while parsing configuration\n```\nMissing type.",
+      "revId": "693c53c010766c66e512183d31958ddfb998c0ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
