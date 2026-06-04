@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0cd7e24c_95b9c698",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-06-04T19:24:59Z",
+      "side": 1,
+      "message": "I\u0027d commonize https://github.com/LineageOS/android_device_samsung_universal9830-common/blob/lineage-23.2/sepolicy/vendor/genfs_contexts#L91, https://github.com/LineageOS/android_device_samsung_universal9830-common/blob/lineage-23.2/sepolicy/vendor/hal_camera_default.te#L23 and https://github.com/LineageOS/android_device_samsung_universal9830-common/blob/lineage-23.2/sepolicy/vendor/hal_camera_default.te#L30 at this point.",
+      "revId": "e027825e2ee0e8ec78721436c2a657390951be71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
