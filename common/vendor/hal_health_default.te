@@ -1,0 +1,4 @@
+hal_client_domain(hal_health_default, hal_thermal)
+
+allow hal_health_default sysfs_battery_writable:dir search;
+allow hal_health_default sysfs_battery_writable:file w_file_perms;
