@@ -25,6 +25,7 @@
 /dev/block/platform/.+/by-name/modem                u:object_r:modem_block_device:s0
 /dev/block/platform/.+/by-name/(odm|ODM)            u:object_r:system_block_device:s0
 /dev/block/platform/.+/by-name/(omr|OMR)            u:object_r:omr_block_device:s0
+/dev/block/platform/.+/by-name/(param|PARAM)        u:object_r:param_block_device:s0
 /dev/block/platform/.+/by-name/(persistent|PERSISTENT) u:object_r:frp_block_device:s0
 /dev/block/platform/.+/by-name/product              u:object_r:system_block_device:s0
 /dev/block/platform/.+/by-name/(radio|RADIO)        u:object_r:radio_block_device:s0

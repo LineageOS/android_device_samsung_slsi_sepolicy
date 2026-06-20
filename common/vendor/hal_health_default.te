@@ -1,0 +1,29 @@
+# hal_health_default.te
+
+allow hal_health_default efs_file:dir search;
+
+# /efs/Battery
+allow hal_health_default battery_efs_file:dir search;
+allow hal_health_default battery_efs_file:file r_file_perms;
+
+# /efs/FactoryApp
+allow hal_health_default app_efs_file:dir rw_dir_perms;
+allow hal_health_default app_efs_file:file create_file_perms;
+
+# /sys/devices/virtual/sec/rtc/rtc_status
+allow hal_health_default sysfs_sec_rtc:dir search;
+allow hal_health_default sysfs_sec_rtc:file r_file_perms;
+
+# /data/vendor/log
+allow hal_health_default log_vendor_data_file:dir search;
+
+# param block_device
+allow hal_health_default block_device:dir search;
+allow hal_health_default param_block_device:blk_file rw_file_perms;
+
+# android.hardware.thermal::IThermal
+hal_client_domain(hal_health_default, hal_thermal)
+
+# /sys/class/power_supply/battery/lrp
+allow hal_health_default sysfs_battery_writable:dir search;
+allow hal_health_default sysfs_battery_writable:file w_file_perms;
