@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "436eb59b_cfbeb35b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-06-24T20:28:27Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/system/sepolicy/+/64b690fbabfb0f4b11360ffe269d518788a9fd00",
+      "revId": "6e805cab9e7b53583ebd03a1bcfba621e27813ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
