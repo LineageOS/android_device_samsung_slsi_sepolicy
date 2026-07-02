@@ -33,6 +33,23 @@
       "message": "Don\u0027t diverge just yet please, let things settle out a bit first",
       "revId": "6e805cab9e7b53583ebd03a1bcfba621e27813ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f41f4ee7_41d8ca28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-02T05:20:08Z",
+      "side": 1,
+      "message": "once device trees start seeing 24.0 commits merged, feel free to merge",
+      "revId": "6e805cab9e7b53583ebd03a1bcfba621e27813ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
