@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f31c563c_dfbc9146",
+        "filename": "common/vendor/file_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 33569
+      },
+      "writtenOn": "2026-07-09T06:25:13Z",
+      "side": 1,
+      "message": "I believe we can use a single entry just like vibrator HAL label?",
+      "revId": "ce17506d9d9aa708f1a763aa7964f6aa63e0d279",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
