@@ -16,6 +16,24 @@
       "message": "Seems good to me, but it needs further testing to make sure that there aren\u0027t any denials.",
       "revId": "caa56b0f5a53594cc01b370d42994ec796a44de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27ea71cd_0e441644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-08-28T17:39:18Z",
+      "side": 1,
+      "message": "Does this V+ mean there are no denials with this?",
+      "parentUuid": "cf217503_b2ad462c",
+      "revId": "caa56b0f5a53594cc01b370d42994ec796a44de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
