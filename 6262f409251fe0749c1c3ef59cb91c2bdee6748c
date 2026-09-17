@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30680982_e73abf50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-09-17T19:23:06Z",
+      "side": 1,
+      "message": "This isn\u0027t simply a \"Drop\" your migrating the policy inline with the HIDL -\u003e AIDL change.",
+      "revId": "6262f409251fe0749c1c3ef59cb91c2bdee6748c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
