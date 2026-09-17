@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b91fbbf8_a1aa3a8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2026-09-17T19:25:30Z",
+      "side": 1,
+      "message": "I am aware this is staged for 24.0 but just note that s5e9925 and sm8550-common will need corresponding changes.",
+      "revId": "c9674b491289bb58c7af620b1448a39a63706834",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
