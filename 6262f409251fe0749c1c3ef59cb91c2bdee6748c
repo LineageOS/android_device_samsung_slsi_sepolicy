@@ -16,6 +16,24 @@
       "message": "This isn\u0027t simply a \"Drop\" your migrating the policy inline with the HIDL -\u003e AIDL change.",
       "revId": "6262f409251fe0749c1c3ef59cb91c2bdee6748c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57f84e4f_2a85d9ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-09-18T12:14:52Z",
+      "side": 1,
+      "message": "I don\u0027t think I understood your comment. Maybe you misunderstood my commit, so let me explain that. In regex ```(x)?``` is basically \"match on x **if** it exists\". Examples (I had to \u0027escape\u0027 ```$```, ```(``` and ```)```. It can be avoided with ```-E``` flag iirc):\n```\n~ $ sed \u0027s/a//\u0027 \u003c\u003c\u003c \"abc\"\nbc\n\n~ $ sed \u0027s/a\\(b\\?\\)//\u0027 \u003c\u003c\u003c \"abc\"\nc\n\n~ $ sed \u0027s/a\\(b\\?\\)//\u0027 \u003c\u003c\u003c \"ac\"\nc\n```\nThis is exactly what we used in 469881 to label AIDL Codec2 service without adding another line. This way both AIDL and HIDL services were labeled, because there was a match found for both of them. In the end, I\u0027m dropping that completely so only AIDL is labeled, because the label is redundant and no longer used by anything.",
+      "parentUuid": "30680982_e73abf50",
+      "revId": "6262f409251fe0749c1c3ef59cb91c2bdee6748c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
